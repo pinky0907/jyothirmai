@@ -1,0 +1,31 @@
+body{
+    margin:0;
+    padding:0;
+    background-image: url("organic\ background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.tom:hover{
+    color:aqua;
+    text-shadow:  3px 3px red;
+    text-transform:capitalize;
+    font-size: 90px;
+}
+
+.horizontal-navbar{
+    overflow:hidden;
+
+}
+.horizontal-navbar a{
+    float:left;
+    text-decoration: none;
+display:block;
+padding:10px 50px 10px 50px;
+color:white
+    }
+    .horizontal-navbar a:hover{
+        color:pink;
+        background-color:indianred;
+        border-radius: 30px;
+        border:solid 5px rgb(237, 121, 179);
+    }
