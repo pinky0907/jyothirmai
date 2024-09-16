@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: plum;
+        }
+        .a{
+            background-image: url("27.jpg");
+            background-size: cover;
+            text-shadow: 4px 4px 5px orangered;
+            font-size:70px;
+            color:white;
+        }
+        .b{
+            text-transform: uppercase;
+            font-family: cursive;
+            text-shadow: 3px 3px 5px rosybrown;
+        }
+        .c{
+            border:5px solid pink;
+            font-size: 30px;
+        }
+        div{
+            width:100px;
+            height:100px;
+            animation-name:pinky;
+            animation-duration:3s;
+            position:relative;
+            background-size: cover;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1 class="a"><marquee>CONTACT US</marquee> </h1>
+   <h2 class="b" align="center">Please Feel Free To Contact Us</h2>
+   <div align="right"></div>
+    <form  class="c" style="background-color: coral;" align="center"  margin-left="300px" action="/action_page.php">
+        <fieldset>
+            <label for="fname" placeholder="Enter Your Name">First Name:</label>
+            <input type="text" id="fname" name="fname"><br><br>
+             <label for="email" placeholder="Enter Your Email">Email:</label>
+             <input type="email" id="email" name="email"><br><br>
+             <label for="msg">Message:</label>
+             <textarea name="Message" id="" cols="30" rows="10"></textarea><br>
+            <label for="sub">Subject:</label>
+            <textarea name="sub" id="" cols="30" rows="10"></textarea><br><br>
+            <input  style="background-color: chartreuse;" border:5px solid type="SUBMIT" value="Send Message">
+        
+    
+            <address align="center" style="font-family: cursive;">
+                ADDRESS:
+                
+              Pillar No:1234;
+              Banjara Hills;
+              Khairatabad;
+              Hyderabad;
+              Telangana-500034.
+            </address>
+        </fieldset>
+</form>
+</body>
+</html>
